@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
   theme: {
     extend: {
       keyframes: {

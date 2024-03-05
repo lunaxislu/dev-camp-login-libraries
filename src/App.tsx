@@ -10,7 +10,8 @@ import {
 function App() {
   return (
     <>
-      <Accordion type="single" collapsible className={"w-full"}>
+      <div className="bg-black">안녕</div>
+      <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="">Is it accessible?</AccordionTrigger>
           <AccordionContent>
